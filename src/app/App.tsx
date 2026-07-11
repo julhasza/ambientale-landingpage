@@ -32,8 +32,6 @@ import {
   Wind,
   AlertTriangle,
   Instagram,
-  Facebook,
-  Linkedin,
   Home,
   Hotel,
   GraduationCap,
@@ -234,9 +232,9 @@ export default function App() {
 
       {/* -- NAV ---------------------------------------------------------- */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border">
-        <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
           <a href="#" className="shrink-0">
-            <img src={logoImg} alt="Ambientale Limpeza e Controle" className="w-44 sm:w-52 h-auto object-contain" />
+            <img src={logoImg} alt="Ambientale Limpeza e Controle" className="w-56 sm:w-72 h-auto object-contain" />
           </a>
 
           <nav className="hidden lg:flex items-center gap-7">
@@ -274,7 +272,7 @@ export default function App() {
       </header>
 
       {/* -- HERO --------------------------------------------------------- */}
-      <section className="pt-16 bg-white flex items-center">
+      <section className="pt-24 bg-white flex items-center">
         <div className="max-w-7xl mx-auto px-6 py-10 lg:py-16 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center w-full">
           <div className="flex flex-col gap-8">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-accent/10 text-accent text-xs font-semibold w-fit">
