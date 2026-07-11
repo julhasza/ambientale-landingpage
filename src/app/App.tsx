@@ -734,8 +734,7 @@ export default function App() {
               <div className="flex items-center gap-3">
                 {[
                   { icon: Instagram, href: "https://www.instagram.com/ambi_entale/", label: "Instagram" },
-                  { icon: Facebook,  href: "https://facebook.com/ambientalern",  label: "Facebook" },
-                  { icon: Linkedin,  href: "https://linkedin.com/company/ambientalern", label: "LinkedIn" },
+                  { icon: MessageCircle, href: `https://wa.me/${PHONE_RAW}`, label: "WhatsApp" },
                 ].map(({ icon: Icon, href, label }) => (
                   <a key={label} href={href} target="_blank" rel="noopener noreferrer" aria-label={label}
                     className="w-9 h-9 rounded-lg bg-white/10 flex items-center justify-center hover:bg-accent transition-colors">
